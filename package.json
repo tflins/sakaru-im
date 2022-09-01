@@ -1,0 +1,12 @@
+{
+  "name": "sakaru-im",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run dev:client",
+    "dev:client": "pnpm --filter ./packages/client dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
